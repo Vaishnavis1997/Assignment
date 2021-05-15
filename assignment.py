@@ -14,7 +14,7 @@
 
 import pymysql
 
-conn =pymysql.connect(database="db1",user="sai",password="sai",host="localhost")
+conn =pymysql.connect(database="db1",user="vaishnavi",password="12345",host="localhost")
 cur=conn.cursor()
 
 #create database
@@ -22,10 +22,10 @@ cur=conn.cursor()
 
 #to store user data
 
-name = "user1"
-age = 25
-gender = "M"
-address = "Tamilnadu"
+name = "vaishnavi"
+age = 24
+gender = "f"
+address = "kerala"
 
 data={'name':name,'age':age,'gender':gender,'address':address}
 print(data)
